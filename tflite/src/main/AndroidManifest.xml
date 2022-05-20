@@ -15,6 +15,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
+            android:name="com.example.android.camerax.tflite.Home.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.android.camerax.tflite.Login.RegisterActivity"
             android:exported="false" />
         <activity
