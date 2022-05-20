@@ -73,4 +73,7 @@ dependencies {
 
     testImplementation 'org.robolectric:robolectric:4.4'
     testImplementation 'junit:junit:4.13.2'
+
+    //dot-indicator
+    implementation("com.tbuonomo:dotsindicator:4.3")
 }

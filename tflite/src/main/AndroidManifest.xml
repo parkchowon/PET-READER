@@ -15,8 +15,17 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
+            android:name="com.example.android.camerax.tflite.Login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android.camerax.tflite.Login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android.camerax.tflite.Login.OnBoardActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.android.camerax.tflite.Login.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,9 +35,7 @@
         <activity
             android:name="com.example.android.camerax.tflite.CameraActivity"
             android:rotationAnimation="seamless"
-            tools:targetApi="O">
-
-        </activity>
+            tools:targetApi="O" />
     </application>
 
 </manifest>
